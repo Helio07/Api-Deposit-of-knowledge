@@ -1,11 +1,11 @@
 module.exports = {
-    authSecret: '',
-
+    authSecret: 'kanscoasncedrtfvygbh',
     db: {
-        host : '127.0.0.1',
-        port: 5432,
-        database: 'knowledge',
-        user: '',
-        password: ''
+        host: 'dpg-crble53v2p9s73didqmg-a',
+        user: 'knowledge_12rw_user',
+        password: 'OZLb5gQItfIlcMUAARlh1M1CQdwfBvtB',
+        database: 'knowledge_12rw',
+        port: 5432, 
     }
 }
+
