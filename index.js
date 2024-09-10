@@ -2,6 +2,7 @@ const app = require('express')()
 const consign = require('consign')
 const db = require('./config/db.js')
 const mongoose = require('mongoose')
+const port = process.env.PORT || 4000;
 
 require('./config/mongodb.js')
 
@@ -17,6 +18,6 @@ consign()
     .then('./config/routes.js')
     .into(app)
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Backend executando ...')
 })
